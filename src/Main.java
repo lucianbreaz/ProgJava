@@ -10,5 +10,8 @@ public class Main {
         int scadere = 2 - 4546757;
 
         System.out.println("Hello World!");
+
+
+        System.out.printf("h");
     }
 }
