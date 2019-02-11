@@ -1,17 +1,31 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Hello!");
+        System.out.println("Who are you?");
+        System.out.println("Hi Lucian!");
 
-        int adunare = 2 + 3;
-        int adunare1 = 2 + 4;
-        System.out.println(adunare1+adunare);
-        adunare++;      //adunare=adunare+1;
-        adunare += 3; //adunare=adunare+3
-        int scadere = 2 - 4546757;
-
-        System.out.println("Hello World!");
+        double x = Math.pow(2, 10);    //2 la puterea 10
+        double y = Math.sqrt(256);    // radacina patrata (radical)
+        System.out.println("x este: " + x);
+        System.out.println("y este: " + y);
+        System.out.println("Rezultatul operatiunii (x - y)/(1-y) este: " + (x - y) / (1 - y));
 
 
-        System.out.printf("h");
+        Scanner introducere_manuala = new Scanner(System.in);
+
+        float A;
+        float B;
+
+        System.out.print ("Introduceti valoarea lui A: ");
+        A= introducere_manuala.nextFloat();
+        System.out.println();
+
+        System.out.print ("Introduceti valoarea lui B: ");
+        B= introducere_manuala.nextFloat();
+        System.out.println();
+        System.out.println ("A la puterea B este: "+(Math.pow(A,B)));
     }
 }
