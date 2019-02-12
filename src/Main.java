@@ -70,7 +70,7 @@ public class Main {
         }
         else {
             System.out.println();
-            System.out.println("Uups! Raspunsul este gresit. Mai calculeaza o data!");
+            System.out.println("Ups! Raspunsul este gresit. Mai calculeaza o data!");
         }
 
 
