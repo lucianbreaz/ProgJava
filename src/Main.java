@@ -19,13 +19,20 @@ public class Main {
         float A;
         float B;
 
-        System.out.print ("Introduceti valoarea lui A: ");
-        A= introducere_manuala.nextFloat();
+
+        System.out.print("Introduceti valoarea lui A: ");
+        A = introducere_manuala.nextFloat();
         System.out.println();
 
-        System.out.print ("Introduceti valoarea lui B: ");
-        B= introducere_manuala.nextFloat();
+        System.out.print("Introduceti valoarea lui B: ");
+        B = introducere_manuala.nextFloat();
         System.out.println();
-        System.out.println ("A la puterea B este: "+(Math.pow(A,B)));
+        System.out.println("A la puterea B este: " + (Math.pow(A, B)));
+
+        float C =++A;
+        //System.out.print("Introduceti valoarea lui C: ");
+        //C = introducere_manuala.nextFloat();
+        System.out.println();
+        System.out.println("A la puterea C este: " + (Math.pow(A,  C)));
     }
 }
