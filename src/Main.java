@@ -148,7 +148,7 @@ public class Main {
 
         System.out.println("Assignment 8 ");
         System.out.println();
-        System.out.print("Introduceti distanta in metrii: ");
+        System.out.print("Introduceti distanta in metri: ");
         double d = enter.nextDouble();
         double miles = d * 1609;
         System.out.print("Introduceti timpul: ");
