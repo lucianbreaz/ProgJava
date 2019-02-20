@@ -72,101 +72,110 @@ public class Main {
 //                System.out.println();
 //                System.out.println("Ups! Raspunsul este gresit. Mai calculeaza o data!");
 //            }
-//        Scanner enter = new Scanner(System.in);
-//        System.out.print("     Tema JAVA    ");
-//        System.out.println();
-//        System.out.println("Assignment 1 ");
-//        System.out.println();
-//        System.out.print("Valoarea lui x este: ");
-//        double x = enter.nextDouble();
-//        System.out.print("Valoarea lui y este: ");
-//        double y = enter.nextDouble();
-//        double res = x * y;
-//        System.out.println("x inmultit cu y este: " + res);
-//        System.out.println();
-//
-//        System.out.println("Assignment 2 ");
-//        System.out.println();
-//        System.out.println("JAVA is FUUUN!!");
-//        System.out.println();
-//        System.out.println("   J    a  V     V  a       00   00");
-//        System.out.println("   J   a a  V   V  a a         |   ");
-//        System.out.println("J  J  aaaaa  V V  aaaaa     (     )");
-//        System.out.println(" JJ  a     a  V  a     a     (___) ");
-//        System.out.println();
-//
-//        System.out.println("Assignment 3 ");
-//        System.out.println();
-//        double rezultat = media(6, 9, 12);
-//        System.out.println("media celor 3 numere este: " + rezultat);
-//        System.out.println();
-//
-//        System.out.println("Assignment 4 ");
-//        System.out.println();
-//        System.out.println("More JAVA FUN!!");
-//        System.out.println();
-//        //System.out.println(" +"""""+");
-//        System.out.println("[| o o |]");
-//        System.out.println(" |  ^  |");
-//        System.out.println(" | '_' |");
-//        System.out.println(" +_____+");
-//        System.out.println();
-//
-//        System.out.println("Assignment 5 ");
-//        System.out.println();
-//        double raspuns = adunari(6, 9);
-//        System.out.println("rezultatul adunarii celor 2 numere este: " + raspuns);
-//        System.out.println();
-//        double rezu = scaderi(6, 9);
-//        System.out.println("rezultatul scaderii celor 2 numere este: " + rezu);
-//        System.out.println();
-//        double rezul = inmultiri(6, 9);
-//        System.out.println("rezultatul inmultirii celor 2 numere este: " + rezul);
-//        System.out.println();
-//        double rezult = impartiri(6, 9);
-//        System.out.println("rezultatul impartirii celor 2 numere este: " + rezult);
-//        System.out.println();
-//        double rezulta = resturi(6, 9);
-//        System.out.println("restul impartirii celor 2 numere este: " + rezulta);
-//        System.out.println();
-//
-//        System.out.println("Assignment 6 ");
-//        System.out.println();
-//        System.out.print("Introduceti temperatura Fahrenheit: ");
-//        float F = enter.nextFloat();
-//        float C = ((5  * (F - 32)) / 9);
-//        System.out.print("Temperatura Celsius este: " + C);
-//        System.out.println();
-//
-//        System.out.println("Assignment 7 ");
-//        System.out.println();
-//        System.out.print("Introduceti lungimea in inch: ");
-//        double i = enter.nextDouble();
-//        double l = i * 0.0254;
-//        System.out.print("Lungimea in metri este: " + l);
-//        System.out.println();
-//
-//        System.out.println("Assignment 8 ");
-//        System.out.println();
-//        System.out.print("Introduceti distanta in metri: ");
-//        double d = enter.nextDouble();
-//        double miles = d * 1609;
-//        System.out.print("Introduceti timpul: ");
-//        System.out.print("Introduceti orele     h= ");
-//        int h = enter.nextInt();
-//        System.out.print("Introduceti minutele  m= ");
-//        int m = enter.nextInt();
-//        System.out.print("Introduceti secundele s= ");
-//        int s = enter.nextInt();
-//        int t = (3600 * h) + (60 * m) + s;
-//        double th = t / 3600;
-//        double v = d /t;
-//        double vk = (d / 1000) / th;
-//        double vm = miles/th;
-//        System.out.println("Viteza in m/s este: " + v);
-//        System.out.println("Viteza in km/h este: " + vk);
-//        System.out.println("Viteza in miles/h este: " + vm);
-//
+        Scanner enter = new Scanner(System.in);
+        System.out.print("     Tema JAVA    ");
+        System.out.println();
+        public static void Ex1(){
+            System.out.println("Assignment 1 ");
+            System.out.println();
+            System.out.print("Valoarea lui x este: ");
+            double x = enter.nextDouble();
+            System.out.print("Valoarea lui y este: ");
+            double y = enter.nextDouble();
+            double res = x * y;
+            System.out.println("x inmultit cu y este: " + res);
+            System.out.println();
+        }
+        public static void Print1() {
+            System.out.println("Assignment 2 ");
+            System.out.println();
+            System.out.println("JAVA is FUUUN!!");
+            System.out.println();
+            System.out.println("   J    a  V     V  a       00   00");
+            System.out.println("   J   a a  V   V  a a         |   ");
+            System.out.println("J  J  aaaaa  V V  aaaaa     (     )");
+            System.out.println(" JJ  a     a  V  a     a     (___) ");
+            System.out.println();
+        }
+        public static void Ex3(){
+                System.out.println("Assignment 3 ");
+                System.out.println();
+                double rezultat = media(6, 9, 12);
+                System.out.println("media celor 3 numere este: " + rezultat);
+                System.out.println();
+        }
+            public static  void Print2(){
+                System.out.println("Assignment 4 ");
+                System.out.println();
+                System.out.println("More JAVA FUN!!");
+                System.out.println();
+                System.out.println(" +\"\"\"\"\"+");
+                System.out.println("[| o o |]");
+                System.out.println(" |  ^  |");
+                System.out.println(" | '_' |");
+                System.out.println(" +_____+");
+                System.out.println();
+            }
+            public static void Ex5(){
+                System.out.println("Assignment 5 ");
+                System.out.println();
+                double raspuns = adunari(6, 9);
+                System.out.println("rezultatul adunarii celor 2 numere este: " + raspuns);
+                System.out.println();
+                double rezu = scaderi(6, 9);
+                System.out.println("rezultatul scaderii celor 2 numere este: " + rezu);
+                System.out.println();
+                double rezul = inmultiri(6, 9);
+                System.out.println("rezultatul inmultirii celor 2 numere este: " + rezul);
+                System.out.println();
+                double rezult = impartiri(6, 9);
+                System.out.println("rezultatul impartirii celor 2 numere este: " + rezult);
+                System.out.println();
+                double rezulta = resturi(6, 9);
+                System.out.println("restul impartirii celor 2 numere este: " + rezulta);
+                System.out.println();
+            }
+            public static void Ex6(){
+                System.out.println("Assignment 6 ");
+                System.out.println();
+                System.out.print("Introduceti temperatura Fahrenheit: ");
+                float F = enter.nextFloat();
+                float C = ((5  * (F - 32)) / 9);
+                System.out.print("Temperatura Celsius este: " + C);
+                System.out.println();
+            }
+            public static void Ex7() {
+                System.out.println("Assignment 7 ");
+                System.out.println();
+                System.out.print("Introduceti lungimea in inch: ");
+                double i = enter.nextDouble();
+                double l = i * 0.0254;
+                System.out.print("Lungimea in metri este: " + l);
+                System.out.println();
+            }
+
+             public static void Ex8() {
+                 System.out.println("Assignment 8 ");
+                 System.out.println();
+                 System.out.print("Introduceti distanta in metri: ");
+                 double d = enter.nextDouble();
+                 double miles = d * 1609;
+                 System.out.print("Introduceti timpul: ");
+                 System.out.print("Introduceti orele     h= ");
+                 int h = enter.nextInt();
+                 System.out.print("Introduceti minutele  m= ");
+                 int m = enter.nextInt();
+                 System.out.print("Introduceti secundele s= ");
+                 int s = enter.nextInt();
+                 int t = (3600 * h) + (60 * m) + s;
+                 double th = t / 3600;
+                 double v = d / t;
+                 double vk = (d / 1000) / th;
+                 double vm = miles / th;
+                 System.out.println("Viteza in m/s este: " + v);
+                 System.out.println("Viteza in km/h este: " + vk);
+                 System.out.println("Viteza in miles/h este: " + vm);
+             }
 //    }
 //
 //        public static double media ( double u, double v, double t) {
@@ -205,6 +214,21 @@ public class Main {
 //
 //            float rezulta = impartire(5.67f,23.3445f);
 //            System.out.println(rezulta);
+        //
+//    public static int scadere(int x, int y){
+//        int rezultat = x - y;
+//        return rezultat;
+//    }
+//
+//    public static float inmultire(float a, float b){
+//        float result = a * b;
+//        return result;
+//    }
+//
+//    public static float impartire(float t, float z){
+//        float rezultatimpartire = t / z;
+//        return rezultatimpartire;
+
 //
 
         Veterinar ghita = new Veterinar();
@@ -293,20 +317,6 @@ public class Main {
 
 
     }
-//
-//    public static int scadere(int x, int y){
-//        int rezultat = x - y;
-//        return rezultat;
-//    }
-//
-//    public static float inmultire(float a, float b){
-//        float result = a * b;
-//        return result;
-//    }
-//
-//    public static float impartire(float t, float z){
-//        float rezultatimpartire = t / z;
-//        return rezultatimpartire;
 
 
 }

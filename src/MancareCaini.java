@@ -6,15 +6,5 @@ public class MancareCaini {
     String aroma;
     boolean uscata;
 
-    public void consulta(){
-        System.out.println("MancareaCaini consulta");
-    }
-    public void reteta(){
-        System.out.println("Veterinarul prescrie reteta");
-    }
-    public void recomandari(){
-        System.out.println("Veterinarul face recomandari pentru viitoare probleme");
-
-    }
-}
+   }
 
