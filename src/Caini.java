@@ -6,4 +6,5 @@ public class Caini {
     String culoare;
     boolean rasa;
 
+
 }

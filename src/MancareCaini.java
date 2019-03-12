@@ -6,5 +6,6 @@ public class MancareCaini {
     String aroma;
     boolean uscata;
 
-   }
+
+        }
 

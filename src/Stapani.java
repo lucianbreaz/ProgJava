@@ -5,4 +5,6 @@ public class Stapani {
     float venituri;
     String ocupatie;
     boolean activ;
+
+
 }
